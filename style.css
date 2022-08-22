@@ -5,16 +5,20 @@ body {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .orange-color {
     color: orange;
 }
-section {
+.flexible-container {
     display: flex;
 }
+
 .half-width {
     width: 50%;
-    padding-left: 8%;
-    margin-top: 50px;
+    margin-left: 8%;
+    margin-top: 200px;
 }
 .half-width img {
     width: 80%;
@@ -38,4 +42,32 @@ section {
     background-image: url(images/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+    padding-bottom: 250px;
+}
+.exp {
+    margin-top: 0;
+    padding-top: 0;
+}
+.exp-bg{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow {
+    width: 40%;
+    margin-left: 5%;
+    padding: 50px 50px;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+.border-tomato {
+    border-left: 10px solid tomato;
+}
+.border-blue {
+    border-left: 10px solid blue;
+}
+footer p {
+    text-align: center;
+    color: #333;
+    margin-top: 100px;
 }
